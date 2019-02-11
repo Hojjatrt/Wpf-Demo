@@ -20,7 +20,7 @@ namespace Wpf_Demo.ViewModels
         {
             ObservableCollection<Student> students = new ObservableCollection<Student>();
 
-            students.Add(new Student { FirstName = "Mark", LastName = "Allain" });
+            students.Add(new Student { FirstName = "حجت", LastName = "رأفت" });
             students.Add(new Student { FirstName = "Allen", LastName = "Brown" });
             students.Add(new Student { FirstName = "Linda", LastName = "Hamerski" });
 
