@@ -24,5 +24,13 @@ namespace Wpf_Demo
         {
             InitializeComponent();
         }
+        private void StudentViewControl_Loaded(object sender, RoutedEventArgs e)
+        {
+            ViewModels.StudentViewModel studentViewModelObject =
+               new ViewModels.StudentViewModel();
+            studentViewModelObject.LoadStudents();
+
+            StudentViewControl.DataContext = studentViewModelObject;
+        }
     }
 }
